@@ -1,0 +1,9 @@
+
+<launch>
+
+    <param name="use_sim_time" value="true" />
+
+    <node name="mapping" type="slam_gmapping" pkg="gmapping"
+        args="scan:=hokuyo_scan" />
+
+</launch>

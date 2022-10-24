@@ -5,6 +5,8 @@ add_compile_options(-std=c++14)
 
 find_package(catkin REQUIRED COMPONENTS roscpp roslaunch)
 
+roslaunch_add_file_check(launch)
+
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES autobots_mapping
